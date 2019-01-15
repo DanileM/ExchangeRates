@@ -3,9 +3,9 @@ package danilem.app.com.exchangerates;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class RetroClient {
+public class RetroClient extends Module {
 
-    private static final String URL = "https://api.privatbank.ua";
+    private static final String URL = "https://api.privatbank.ua/";
 
     private static Retrofit getRetrofitInstance(){
         return new Retrofit.Builder()

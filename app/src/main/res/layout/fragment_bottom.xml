@@ -20,10 +20,10 @@
         android:visibility="invisible"
         android:layout_gravity="center"/>
 
-    <TextView
-        android:id="@+id/tv_exchangeRates_bottomfragment"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rc_exchangeRate"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="21sp" />
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

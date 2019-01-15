@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-    @GET("/p24api/pubinfo?")
+    @GET("p24api/pubinfo?")
     Call<List<Module>> getExchangeRates(
             @Query("json") String json,
             @Query("exchange") String exchange,
